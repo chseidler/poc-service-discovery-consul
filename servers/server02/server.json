@@ -1,8 +1,9 @@
 {
     "server":true,
-    "bind_url":"172.18.0.1",
+    "bind_url":"172.18.0.2",
     "bootstrap_expect":3,
     "data_dir":"/var/lib/consul",
-    "node_name":"consulserver01",
+    "retry_join":"172.18.0.1",
+    "node_name":"consulserver02",
     "encrypt":"consul keygen encypt generated"
 }

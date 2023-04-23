@@ -21,3 +21,5 @@
 
 if (server.json)
 `consul agent -config-dir=/etc/consul.d`
+
+`consul keygen`
