@@ -16,3 +16,5 @@
 `curl localhost:8500/v1/catalog/services`
 `curl catalog nodes -service nginx`
 `curl catalog nodes -detailed`
+
+`consul agent -bind=172.18.0.4 -data-dir=/var/lib/consul -config-dir=/etc/consul.d -retry-join=bind=172.18.0.2 -retry-join=bind=172.18.0.5` retry-join
